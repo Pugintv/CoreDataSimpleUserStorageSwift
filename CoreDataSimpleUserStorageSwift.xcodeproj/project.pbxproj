@@ -15,6 +15,8 @@
 		39CE1145216BBF6B0040D54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39CE1143216BBF6B0040D54C /* LaunchScreen.storyboard */; };
 		39CE1150216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE114F216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftTests.swift */; };
 		39CE115B216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE115A216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftUITests.swift */; };
+		39CE1169216BC1220040D54C /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE1168216BC1220040D54C /* PasswordValidator.swift */; };
+		39CE116B216BC99C0040D54C /* PasswordValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CE116A216BC99C0040D54C /* PasswordValidatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		39CE1156216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataSimpleUserStorageSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CE115A216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSimpleUserStorageSwiftUITests.swift; sourceTree = "<group>"; };
 		39CE115C216BBF6B0040D54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39CE1168216BC1220040D54C /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		39CE116A216BC99C0040D54C /* PasswordValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				39CE1143216BBF6B0040D54C /* LaunchScreen.storyboard */,
 				39CE1146216BBF6B0040D54C /* Info.plist */,
 				39CE113E216BBF6A0040D54C /* CoreDataSimpleUserStorageSwift.xcdatamodeld */,
+				39CE1168216BC1220040D54C /* PasswordValidator.swift */,
 			);
 			path = CoreDataSimpleUserStorageSwift;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			children = (
 				39CE114F216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftTests.swift */,
 				39CE1151216BBF6B0040D54C /* Info.plist */,
+				39CE116A216BC99C0040D54C /* PasswordValidatorTests.swift */,
 			);
 			path = CoreDataSimpleUserStorageSwiftTests;
 			sourceTree = "<group>";
@@ -262,6 +268,7 @@
 				39CE1140216BBF6A0040D54C /* CoreDataSimpleUserStorageSwift.xcdatamodeld in Sources */,
 				39CE113A216BBF6A0040D54C /* ViewController.swift in Sources */,
 				39CE1138216BBF6A0040D54C /* AppDelegate.swift in Sources */,
+				39CE1169216BC1220040D54C /* PasswordValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39CE1150216BBF6B0040D54C /* CoreDataSimpleUserStorageSwiftTests.swift in Sources */,
+				39CE116B216BC99C0040D54C /* PasswordValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

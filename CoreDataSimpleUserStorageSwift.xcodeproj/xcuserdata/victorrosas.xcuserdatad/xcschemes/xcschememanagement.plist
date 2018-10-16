@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CoreDataSimpleUserStorageSwift.xcscheme</key>
+		<key>CoreDataSimpleUserStorageSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>39CE1133216BBF6A0040D54C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39CE114A216BBF6B0040D54C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39CE1155216BBF6B0040D54C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
